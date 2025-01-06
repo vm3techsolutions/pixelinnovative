@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "How Walkie-Talkies Improve Business Communication",
+      "author": "Sarah Walker",
+      "date": "January 5, 2025",
+      "image": "/images/blog1.jpg",
+      "slug": "improve-business-communication",
+      "excerpt": "Explore how walkie-talkies can enhance instant communication for businesses in various industries."
+    },
+    {
+      "id": 2,
+      "title": "Top Features to Look for in Modern Walkie-Talkies",
+      "author": "Tech Solutions",
+      "date": "February 10, 2025",
+      "image": "/images/blog2.jpg",
+      "slug": "modern-walkie-talkie-features",
+      "excerpt": "Learn about the must-have features in walkie-talkies to boost productivity and reliability."
+    },
+    {
+      "id": 3,
+      "title": "The Role of Walkie-Talkies in Emergency Preparedness",
+      "author": "Safety First",
+      "date": "March 15, 2025",
+      "image": "/images/blog3.jpg",
+      "slug": "walkie-talkies-emergency-preparedness",
+      "excerpt": "Understand why walkie-talkies are a critical tool in emergency scenarios for businesses and organizations."
+    }
+  ]
+  

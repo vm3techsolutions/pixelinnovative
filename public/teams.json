@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "designation": "CEO",
+      "photo": "/images/team1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "designation": "CTO",
+      "photo": "/images/team2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mike Johnson",
+      "designation": "Quality In-Charge",
+      "photo": "/images/team3.jpg"
+    }
+  ]
+  

@@ -1,0 +1,33 @@
+/* Make the banner container take up full width and height */
+.banner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center;     /* Center the image vertically */
+  }
+  
+  /* Make the image inside the banner responsive */
+  .banner img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;  /* Ensures the image covers the area without distortion */
+    max-height: 100%;    /* Keeps the image within the container height */
+  }
+  
+  .quote-form{
+    margin-bottom: -300px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.5);
+  }
+  /* Optional: Add some padding/margin to the image on small screens */
+  @media (max-width: 768px) {
+    .banner img {
+      object-fit: cover;  /* Ensures the entire image is visible on smaller screens */
+    }
+  }
+  @media (max-width: 480px) {
+    .banner {
+      height: 150px; /* Further reduce the banner height on very small screens */
+    }
+  }
+  
