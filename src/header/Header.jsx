@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
-import logo from "../assets/logo.jpeg";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -29,7 +29,7 @@ const Header = () => {
     : { top: "0", position: "fixed", transition: "top 0.3s ease" };
 
   return (
-    <nav className="header" style={headerStyle}>
+    <nav className="header bg-primary" style={headerStyle}>
       <img src={logo} alt="Logo" />
       <ul className="nav-links">
         <li>
@@ -39,13 +39,16 @@ const Header = () => {
           <Link to="/about">ABOUT US</Link>
         </li>
         <li>
-          <Link to="/services">PRODUCTS</Link>
+          <Link to="/products">PRODUCTS</Link>
         </li>
-        <li>
-          <Link to="/contact">SERVICES</Link>
+        {/* <li>
+          <Link to="/services">SERVICES</Link>
         </li>
         <li>
           <Link to="/career">CAREER</Link>
+        </li> */}
+        <li>
+          <Link to="/faq">FAQ</Link>
         </li>
         <li>
           <Link to="/contact">CONTACT</Link>

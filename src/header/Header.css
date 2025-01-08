@@ -1,18 +1,20 @@
 .header {
+  max-width: 100%;
   width: 100%;
-  padding: 0px 70px;
-  background-color: white;
+  padding: 0px 5vw;  /* Use viewport width units */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: fixed;
   left: 0;
   z-index: 1000;
   height: 60px;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  overflow: hidden;
 }
 
+
 .header img{
-  height: 100%;
+  height: 60px;
 }
 
 .nav-links {
@@ -24,11 +26,11 @@
 
 .nav-links li a {
   text-decoration: none;
-  color: #1A4861;
+  color: #fff;
   font-weight: 600;
   font-size: 14px;
 }
 
 .nav-links li a:hover {
-  color: #B2D190;
+  @apply text-secondary;
 }

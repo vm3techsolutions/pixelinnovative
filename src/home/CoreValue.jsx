@@ -18,7 +18,7 @@ const CoreValue = () => {
     {
       icon: faHandshake,
       title: "Integrity",
-      content: "we build trust through honesty, transparency, and ethical business practices.",
+      content: "We build trust through honesty, transparency, and ethical business practices.",
     },
     {
       icon: faHandHoldingHeart,
@@ -33,7 +33,7 @@ const CoreValue = () => {
     {
       icon: faUserShield,
       title: "Safety",
-      content: "we prioritize safety in all aspects of our products and operations.",
+      content: "We prioritize safety in all aspects of our products and operations.",
     },
   ];
 
@@ -41,12 +41,12 @@ const CoreValue = () => {
     <div className="py-28 mb-6 ">
       {/* Section Heading */}
       <div className="text-center mb-12 ">
-        <h3 className="text-4xl mt-12 text-[#1A4861] font-bold relative inline-block">
+        <h3 className="text-4xl mt-12 text-primary font-bold relative inline-block">
           Core
-          <span className="absolute bottom-[-8px] left-0 w-12 h-1 bg-[#B2D190]"></span>
-          <span className="text-[#B2D190]"> Values</span>
+          <span className="absolute bottom-[-8px] left-0 w-12 h-1 bg-secondary"></span>
+          <span className="text-secondary"> Values</span>
         </h3>
-        <p className="text-center my-8 w-[60%] mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora praesentium debitis accusantium, placeat ea delectus rerum, asperiores eius minus odio quaerat omnis esse repudiandae voluptatum, ipsam veniam architecto ducimus sequi!Fuga, itaque porro optio error sequi modi nihil dignissimos. </p>
+        <p className="text-center my-8 w-[60%] mx-auto">Our core values of innovation, integrity, excellence, customer focus, and safety drive everything we do. They guide our commitment to delivering high-quality, impactful solutions and building strong, lasting relationships with our clients and partners.</p>
       </div>
 
       {/* Boxes */}
@@ -54,7 +54,7 @@ const CoreValue = () => {
         {coreValues.map((value, index) => (
           <div
             key={index}
-            className={`flex flex-col items-center p-6 shadow-md bg-[#538bfc] ${
+            className={`flex flex-col items-center p-6 shadow-md bg-primary ${
               index % 2 === 0 ? "translate-y-0" : "translate-y-16"
             }`}
           >

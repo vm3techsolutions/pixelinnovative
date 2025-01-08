@@ -16,10 +16,10 @@ const Team = () => {
       <div className="py-6">
         {/* Section Heading */}
         <div className="text-center">
-          <h3 className="text-4xl mt-12 text-[#1A4861] font-bold relative inline-block">
+          <h3 className="text-4xl mt-12 text-primary font-bold relative inline-block">
             Our
-            <span className="absolute bottom-[-8px] left-0 w-12 h-1 bg-[#B2D190]"></span>
-            <span className="text-[#B2D190]"> Team</span>
+            <span className="absolute bottom-[-8px] left-0 w-12 h-1 bg-secondary"></span>
+            <span className="text-secondary"> Team</span>
           </h3>
         </div>
 
@@ -32,7 +32,7 @@ const Team = () => {
                 alt={member.name}
                 className=" w-full h-40  object-cover"
               />
-              <h4 className="text-xl font-semibold text-[#1A4861] mt-2">{member.name}</h4>
+              <h4 className="text-xl font-semibold text-primary mt-2">{member.name}</h4>
               <p className="text-sm text-gray-500">{member.designation}</p>
             </div>
           ))}

@@ -1,9 +1,9 @@
 import React from "react";
-import logo from "../assets/logo.jpeg";
+import logo from "../assets/logo.png";
 
 function Footer() {
   return (
-    <footer className="bg-[#538bfc] text-white pt-8">
+    <footer className="bg-primary text-white pt-8 text-[15px]">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 px-28">
         {/* First Column: Logo, Address, Contact */}
         <div>
@@ -12,10 +12,10 @@ function Footer() {
             alt="Logo"
             className="mb-4 w-28"
           />
-          <h4 className="font-bold my-2">About Pixel</h4>
-          <p className="mb-2">Address: 123 Business Avenue, City, Country</p>
-          <p className="mb-2">Phone: +1 123 456 7890</p>
-          <p className="mb-4">Email: info@company.com</p>
+          {/* <h4 className="font-bold my-2">About Pixel</h4> */}
+          <p className="mb-2">Address: S.No.126/2A/1A/1 Flat No.401, Jivan Chaya HSG SOC.PL 21, Kothrud, Pune City, Pune- 411038, Maharashtra</p>
+          <p className="mb-2">Phone: <a href="+919730305633">+91 9730305633</a></p>
+          <p className="mb-4">Email: <a href="sales@pixelinnovative.net">sales@pixelinnovative.net</a></p>
           <div className="flex space-x-4 text-white">
             <a href="#" className="hover:text-[#1A4861]">
               <i className="fab fa-facebook"></i>
@@ -52,7 +52,7 @@ function Footer() {
                 Products
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/services" className="hover:text-[#1A4861]">
                 Services
               </a>
@@ -60,6 +60,11 @@ function Footer() {
             <li>
               <a href="/services" className="hover:text-[#1A4861]">
                 Career
+              </a>
+            </li>  */}
+            <li>
+              <a href="/faq" className="hover:text-[#1A4861]">
+                FAQ
               </a>
             </li>       
             <li>

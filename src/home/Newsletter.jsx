@@ -6,10 +6,10 @@ const Newsletter = () => {
       <div className="py-24 ">
         {/* Section Heading */}
         <div className="text-center mb-8">
-          <h3 className="text-3xl font-bold text-[#1A4861]">
+          <h3 className="text-3xl font-bold text-primary">
             Stay Updated
-            <span className="absolute bottom-[-8px] left-0 w-12 h-1 bg-[#B2D190]"></span>
-            <span className="text-[#B2D190]"> with Us</span>
+            {/* <span className="bottom-[-8px] left-0 w-12 h-1 bg-[#B2D190]"></span> */}
+            <span className="text-secondary"> with Us</span>
           </h3>
           <p className="mt-4 text-gray-600">
             Subscribe to our newsletter for the latest updates, tips, and insights.
@@ -27,7 +27,7 @@ const Newsletter = () => {
             />
             <button
               type="submit"
-              className="px-6 py-2 bg-[#1A4861] text-white font-semibold rounded-md hover:bg-[#B2D190] hover:text-[#1A4861] transition-colors"
+              className="px-6 py-2 bg-primary text-white font-semibold rounded-md hover:bg-secondary hover:text-primary transition-colors"
             >
               Subscribe
             </button>
